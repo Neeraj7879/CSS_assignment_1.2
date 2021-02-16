@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   *{
+       padding: 0px;
+       margin: 0px;
+   }
+    body{
+        background-color: #D8DA3D;
+        color: #80007E;
+    }
+    ul li:nth-child(odd){
+        background-color: white;
+        list-style: none;
+        padding: 5px;
+        margin: 10px 25px 5px 12px;
+        border-right: 25px solid #FF7F00;
+        color: #80007E;
+        width: 200px;
+    }
+    
+    ul li:nth-child(even){
+        background-color: white;
+        list-style: none;
+        padding: 5px;
+        margin: 10px 25px 5px 12px;
+        border-right: 25px solid #80007E;
+        color: #80007E;
+        width: 200px;
+    }
+    hr{
+        border:none;
+        border-top:1px dashed #0000FF;
+    }
+    .left_box { 
+        margin-top: 25px;
+        float:left;  
+        width:auto; 
+    } 
+   /* For 3 lorem lines in middle */
+
+    .right_box{ 
+        margin-left: 20px;
+        float:left;  
+        width:80%; 
+        font-size: 1.35em;
+        font-family: serif;
+        line-height: 45px; 
+    } 
+
+    h1{
+        font-size: 40px;
+        font-family: sans-serif;
+        margin-top: 15px;
+        margin-left: 290px;
+    }
+    p{
+        color: #80007E;
+    }
+    .dashed_border{
+        
+        border-style: dashed ;
+        border-color: #FF7F00;
+        padding: 2px 5px 2px 5px;
+        color: black;
+        font-size: 20px;
+        font-family: serif;
+
+        
+    }
+    #block-1{
+        margin-top: 25px;
+        border-color: black; 
+    }
+
+    #block-2{
+        margin-top: 25px;
+        text-align:right; 
+        font-style: italic;}
+    
+        #block-3{
+        margin-top: 25px;
+        margin-bottom: 45px;
+        text-align: center;
+        font-weight: bold;
+        border: 2px dotted #0000FF;
+    }
+    /* For last 2 lines */
+
+    #bottom{
+        font-size: 1.2em;
+        font-family: Georgia, serif;
+        font-style: italic;
+        margin-left: 290px;
+
+    }
+
+</style>  
+</head>  
+
+<body>  
+<div class = "boxes"> 
+    <div class = "left_box"> 
+        <ul>
+            <li>w3schools - HTML</li>
+            <li>w3schools - CSS</li>
+            <li>w3schools - JS</li>
+            <li>w3schools - PHP</li>
+    
+          </ul>
+    </div>  
+    
+    <h1>My first styled page</h1>
+    <div class = "right_box"> 
+        <p>Welcome to my styled page!
+        <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....
+        <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <br>
+        <hr>
+        <p class="dashed_border" id="block-1">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+        
+        <p class="dashed_border" id="block-2">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+        
+        <p class="dashed_border" id="block-3" >
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+    </div> 
+    <div id="bottom">
+        <p>Made 25 January 2018 <br/>by myself.</p>
+    </div>
+    
+</div> 
+
+</body>  
+</html>         
