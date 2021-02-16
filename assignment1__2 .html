@@ -7,14 +7,17 @@
     <title>Document</title>
 </head>
 <style>
+    /* Styling for complete page */
    *{
        padding: 0px;
        margin: 0px;
    }
+
     body{
         background-color: #D8DA3D;
         color: #80007E;
     }
+    /* unorderlist orange part */
     ul li:nth-child(odd){
         background-color: white;
         list-style: none;
@@ -24,7 +27,7 @@
         color: #80007E;
         width: 200px;
     }
-    
+    /* unorderedlist purple part*/
     ul li:nth-child(even){
         background-color: white;
         list-style: none;
@@ -34,15 +37,21 @@
         color: #80007E;
         width: 200px;
     }
+    /* horizonal line */
     hr{
         border:none;
         border-top:1px dashed #0000FF;
+    
     }
+
+    /* left unorderlist div*/
+
     .left_box { 
         margin-top: 25px;
         float:left;  
         width:auto; 
     } 
+
    /* For 3 lorem lines in middle */
 
     .right_box{ 
@@ -63,6 +72,9 @@
     p{
         color: #80007E;
     }
+
+    /* dashed rows */
+    
     .dashed_border{
         
         border-style: dashed ;
@@ -74,6 +86,7 @@
 
         
     }
+    /* text inside dashed rows*/
     #block-1{
         margin-top: 25px;
         border-color: black; 
@@ -107,6 +120,9 @@
 <body>  
 <div class = "boxes"> 
     <div class = "left_box"> 
+    
+        <!-- unorderlist left side -->
+    
         <ul>
             <li>w3schools - HTML</li>
             <li>w3schools - CSS</li>
@@ -115,6 +131,8 @@
     
           </ul>
     </div>  
+
+    <!--starting of page  -->
     
     <h1>My first styled page</h1>
     <div class = "right_box"> 
@@ -122,7 +140,13 @@
         <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....
         <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <br>
+        
+        <!-- horizonal line-->
+
         <hr>
+    
+        <!--start of dashed rows  -->
+        
         <p class="dashed_border" id="block-1">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         </p>
@@ -135,6 +159,8 @@
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         </p>
     </div> 
+
+    <!-- botton italic text-->
     <div id="bottom">
         <p>Made 25 January 2018 <br/>by myself.</p>
     </div>
